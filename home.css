@@ -1,0 +1,196 @@
+/* modificacion de titulo por medio de clase*/
+.titulo{
+    color: pink;
+    padding-right: 1000px;
+    position: relative;
+    width: auto;
+    height: auto;
+    background: black;
+    font-size: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        
+}
+body a{
+    display: inline;
+    color: black;
+    text-align: center;
+    background: pink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: pink;
+    background-size: auto;
+    background-color: pink;
+   line-height: normal;
+   background-repeat: inherit;
+}
+nav a{
+    font-size: 40px;
+    text-align: center;
+}
+h3{ 
+    color: pink;
+    border: solid black 2px;
+    padding: 20px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 2.5px black
+}
+h2{
+    border: solid black 2px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    background-color: pink       
+}
+h1{
+    margin: 5px 10px 10px 10px;
+    border: solid black 2px;
+    background-color: lightgrey;
+  -webkit-text-stroke: 2.5px black;
+    color: pink;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+
+}
+
+img{
+    overflow: hidden;
+    margin: 10px;
+    float: left;
+    display: inline;
+    border: black 5px solid;
+}
+div{
+    text-align: justify;
+}
+.alto{
+font-size: 50px;
+}
+.construccion{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    color: red;
+    background: black;
+}
+footer{
+    border: solid black 2.5px;
+  -webkit-text-stroke: 2.5px black;
+    color: pink;
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+iframe{
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    display: inline;
+    border: black 3px solid;
+}
+/* color a parrafos por medio de clases */
+.news{
+    flex-direction: column;
+    flex-flow: row-reverse;
+    padding: 3px;
+    content: 20px;
+    margin: 40px;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+.science{
+    padding: 3px;
+    content: 20px;
+    margin: 40px;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+.music{
+    padding: 3px;
+    content: 20px;
+    margin: 40px;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+.film{
+    padding: 3px;
+    content: 20px;
+    margin: 40px;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+.art{
+    flex-direction: column;
+    padding: 3px;
+    content: 20px;
+    margin: 40px;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+.datascience { 
+    padding: 3px;
+    content: 20px;
+    margin: 40px;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+/* estilo en cascada en lista */
+.lista{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    align-items: center;
+}
+li {
+    flex-flow: row-reverse;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: pink;
+    list-style-image: url(../images/favicon.jpg);
+    list-style-position: inside;
+   
+}
+div{
+    border: black 3px solid; color: black;
+    padding: 25px;
+}
+tr {
+ color:black;
+}
+a{
+    font-size: 80px;
+}
